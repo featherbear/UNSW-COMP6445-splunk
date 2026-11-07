@@ -1,7 +1,7 @@
 # COMP6845 | Splunk
 
 ```
-Version: 1.1 (20251103)
+Version: 1.2 (20261183)
 Maintainer: Andrew Wong (andrew.j.wong@unsw.edu.au)
 ```
 
@@ -11,4 +11,3 @@ Special thanks to Wesley Lacy for providing the lesson plan and resources
 
 In this lab we're going to learn how to use Splunk!  
 We'll start off by figuring out how to set it up, then ingest a web server log file and do some hunting!
-
