@@ -20,21 +20,20 @@ However, if a timestamp in the log file is ambiguous, we may need to seek more c
 
 For the first part of this lab, we will be using a modified excerpt from a sample web server access log file (public domain).
 
-Download the `2025-access-log.zip` file from [Google Drive](https://drive.google.com/uc?export=download&id=1Beso6HHk63uDz2S8f8VZnukhma1PZxTB).  
+Download the `zanbil-access-log.zip` file from [Google Drive](https://drive.google.com/file/d/13D8_cxi163AL91ag0OfGQ6h57C6k-guv/view?usp=sharing).  
 
-* MD5(2025-access-log.zip): `7a2eacfd0afbc29209166c5740032bfc`
+* MD5: `7a2eacfd0afbc29209166c5740032bfc`
 * Extracted MD5(access.log): `a08b53da05c842ceb119bd570ae653ae`
 
 ---
 
 ```
 = Context =
-Web sever logs contain information on any event that was registered/logged.
-This contains a lot of insights on website visitors, behavior, crawlers accessing the site, business insights, security issues, and more.
-This is a dataset for trying to gain insights from such a file. 
+Web sever logs contain activity events.  
+This contains a lot of insights on website visitors - accessed paths, behaviour, crawlers accessing the site, security issues, and more. Payloads and headers generally aren't logged (but they can!)  
 
 = Content =
-3.3GB of logs from an Iranian ecommerce website zanbil.ir.
+3.3GB of logs from an e-commerce website zanbil.ir.
 
 = Acknowledgements =
 Zaker, Farzin, 2019, "Online Shopping Store - Web Server Logs", https://doi.org/10.7910/DVN/3QBYB5, Harvard Dataverse, V1

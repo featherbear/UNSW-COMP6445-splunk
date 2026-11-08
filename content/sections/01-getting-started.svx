@@ -26,9 +26,10 @@ _You may use an alternative like [Podman](https://podman.io/) or [Colima](https:
 
 The below command will start Splunk in a Docker container, which you can access via `http://localhost:8000`
 
-> $> `docker run -it -e SPLUNK_GENERAL_TERMS=--accept-sgt-current-at-splunk-com -e SPLUNK_START_ARGS=--accept-license -e SPLUNK_PASSWORD=helloworld -p 8000:8000 -p 8089:8089 splunk/splunk start`
+> $> `docker run --platform linux/amd64 -it -e SPLUNK_GENERAL_TERMS=--accept-sgt-current-at-splunk-com -e SPLUNK_START_ARGS=--accept-license -e SPLUNK_PASSWORD=helloworld -p 8000:8000 -p 8089:8089 splunk/splunk start`
 
 * `run` - Docker run command
+* `--platform linux/amd64` - Use the x86 image (compatibility flag for ARM devices)
 * `-it` - Run interactive with a terminal (allows you to interact with the container via the terminal)
 * `-e SPLUNK_GENERAL_TERMS=--accept-sgt-current-at-splunk-com -e SPLUNK_START_ARGS=--accept-license` - Accepts the [Splunk license](https://www.splunk.com/en_us/legal/splunk-general-terms.html)
 * `-e SPLUNK_PASSWORD=helloworld` - Set the admin password
