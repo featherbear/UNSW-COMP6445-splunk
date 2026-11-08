@@ -29,12 +29,11 @@ Download the `zanbil-access-log.zip` file from [Google Drive](https://drive.goog
 
 ```
 = Context =
-Web sever logs contain information on any event that was registered/logged.
-This contains a lot of insights on website visitors, behavior, crawlers accessing the site, business insights, security issues, and more.
-This is a dataset for trying to gain insights from such a file. 
+Web sever logs contain activity events.  
+This contains a lot of insights on website visitors - accessed paths, behaviour, crawlers accessing the site, security issues, and more. Payloads and headers generally aren't logged (but they can!)  
 
 = Content =
-3.3GB of logs from an Iranian ecommerce website zanbil.ir.
+3.3GB of logs from an e-commerce website zanbil.ir.
 
 = Acknowledgements =
 Zaker, Farzin, 2019, "Online Shopping Store - Web Server Logs", https://doi.org/10.7910/DVN/3QBYB5, Harvard Dataverse, V1
