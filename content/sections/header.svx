@@ -1,4 +1,4 @@
-# COMP6845 | Splunk
+# UNSW Digital Forensics | Splunk Lab
 
 ```
 Version: 1.2 (20261183)
